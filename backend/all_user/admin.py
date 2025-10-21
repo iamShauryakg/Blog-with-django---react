@@ -1,7 +1,6 @@
 from django.contrib import admin
-from .models import normal_user, ultra_user
+from .models import custom_user
 
 # Register your models here.
 
-admin.site.register(normal_user)
-admin.site.register(ultra_user)
+admin.site.register(custom_user)

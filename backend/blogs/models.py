@@ -5,6 +5,7 @@ from django.conf import settings
 # Create your models here.
 class Blog(models.Model):
     title = models.CharField(max_length=200)
+    thumbnail = models.ImageField(upload_to='thumbnails/', null=True, blank=True, default= "https://tse3.mm.bing.net/th/id/OIP.Mbzq9IhqjbqxsHzkrfNqgwHaEo?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3")
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
