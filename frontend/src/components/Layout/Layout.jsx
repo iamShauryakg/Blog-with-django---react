@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div>
         <nav>
-            <Navbar />
+            <Navbar className="hidden md:flex" />
         </nav>
         
         
