@@ -3,7 +3,7 @@ import React from 'react'
 const Card = () => {
   return (
     <div className='max-w-[450px] mx-auto hover:ring-4 hover:ring-green-500' >
-        <div className='gap-4 border p-4 rounded-lg shadow-lg m-4 bg-gradient-to-t from-blue-300 to-yellow-100 hover:scale-105 transition-transform duration-300' >
+        <div className='gap-4 border p-4 rounded-lg shadow-lg m-4 bg-gradient-to-t  from-blue-300 to-yellow-100 hover:scale-105 transition-transform duration-300' >
             <img 
             className='w-full h-[200px]  aspect-3/2 object-cover rounded-t-lg'
             src="https://fc06.deviantart.net/fs70/i/2011/320/c/2/random_art_by_morochow-d4ge829.jpg" 
